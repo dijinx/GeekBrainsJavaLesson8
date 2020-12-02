@@ -20,7 +20,7 @@ public class Desktop extends JFrame {
 		button.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String message = "Спасибо за ваши лекции!";
+				String message = "1";
 				textArea.setText(message);
 			}
 		});
@@ -30,7 +30,7 @@ public class Desktop extends JFrame {
 		button1.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String message1 = "Мне довольно трудно угнаться за программой обучения.";
+				String message1 = "2";
 				textArea.setText(message1);
 			}
 		});
@@ -40,7 +40,7 @@ public class Desktop extends JFrame {
 		button2.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String message2 = "Чуть больше времени мне понадобится для освоения джавы.";
+				String message2 = "3";
 				textArea.setText(message2);
 			}
 		});
@@ -50,7 +50,7 @@ public class Desktop extends JFrame {
 		button3.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String message3 = "Но, я понимаю что я способен всё это выучить.";
+				String message3 = "4";
 				textArea.setText(message3);
 			}
 		});
@@ -60,7 +60,7 @@ public class Desktop extends JFrame {
 		button4.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String message4 = "Всё у меня получится.";
+				String message4 = "5";
 				textArea.setText(message4);
 			}
 		});
@@ -70,7 +70,7 @@ public class Desktop extends JFrame {
 		button5.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				String message5 = "Тут вдохновляющая музыка и титры. Конец.";
+				String message5 = "6";
 				textArea.setText(message5);
 			}
 		});
